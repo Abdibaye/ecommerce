@@ -1,0 +1,97 @@
+<!Doctype html>
+
+<html leng = "en">
+    <head>
+        <title>HomePage</title>
+    
+    <style>
+    .flex-container {
+  display: flex;
+  background-color: black;
+  grid-template-columns: auto auto auto;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+#a {
+    flex-grow: 1;
+}
+#b {
+    flex-grow: 3;
+}
+
+.bottom-container{
+    display: grid;
+    background-color: aquamarine;
+}
+.bottom-container > div {
+    background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+#both {
+    display: grid;
+    background-color: blueviolet;
+}
+
+#both > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.bottom {
+    display: flex;
+}
+ 
+.bottom > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#i1 {
+    flex-grow: 1;
+}
+#i2 {
+    flex-grow: 2;
+}
+#i3 {
+    flex-grow: 3;
+}
+#i4 {
+    flex-grow: 4;
+}
+
+    </style>
+    </head>
+    <body>
+        <div id="both">
+        <div class="flex-container">
+            <div id="a">1</div>
+            <div id="b">2</div>
+            <div id="c">3</div>  
+            <div id="d">1</div>
+        </div>
+        <div class="bottom-container">
+            <div >1</div>
+            <div >2</div>
+            <div >3</div>  
+            <div>1</div>
+        </div>
+        <div class="bottom">
+            <div id="i1">1</div>
+            <div id="i2">2</div>
+            <div id="i3" >3</div>  
+            <div id="i4">1</div>
+        </div>
+    </div>
+    </body>
+</html>

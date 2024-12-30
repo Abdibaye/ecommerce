@@ -1,0 +1,111 @@
+
+.container {
+    display: grid;
+    background-color: rgb(66, 30, 114);
+    margin: 0px;
+    padding: 0px;
+
+}
+.container > div {
+    margin: 10px;
+    padding: 10px;
+}
+h1 {
+    color: white;
+    cursor: pointer;
+}
+.navbar {
+    display: flex;
+    background-color: rgb(46, 42, 36);
+}
+.navbar > div {
+    margin: 10px;
+    padding: 20px;
+}
+
+#input{
+    flex-grow: 1;
+    background-color: aliceblue;
+    border-radius: 3pc;
+    margin-left: 2%;
+}
+
+
+#logodiv {
+
+}
+#logo{
+    flex-grow: 1;
+    width: 4pc;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10pc;
+    background-color:aqua ;
+}
+
+
+p{
+    text-align: center;
+    font-size: 2pc;
+}
+
+#i1 {
+    width: 30pc;
+    height: 30pc;
+    border-radius: 6%;
+    cursor: pointer;
+}
+#i2 {
+    width: 30pc;
+    height: 30pc;
+    border-radius: 6%;
+    cursor: pointer;
+}
+#i3 {
+    width: 30pc;
+    height: 30pc;
+    border-radius: 6%;
+    cursor: pointer;
+}
+
+.service{
+    background-color: rgb(126, 136, 116);
+    height: 20pc;
+}
+
+.service > h3{
+    text-align: center;
+}
+
+.about{
+    background-color: rgb(76, 79, 107);
+    height: 20pc;
+}
+
+.about > h3 {
+    text-align: center;
+}
+.bottom {
+    background-color: brown;
+}
+
+.bottom > h3 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 3pc;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 2pc;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
